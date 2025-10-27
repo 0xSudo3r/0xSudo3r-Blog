@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const titles = [
-      "CTF Writeups",
-      "InfoSec Insights",
+      "Red Team Enthusiast",
       "Somewhere Between 0's and 1's",
-      "Security Researcher"
+      "Let's Hack the Planet",
+      "Bug Bounty Hunter",
+      "Phishing for Fun and Profit",
+      "White Hat Warrior"
     ];
   
     let index = 0;
