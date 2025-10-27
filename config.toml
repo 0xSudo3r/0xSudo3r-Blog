@@ -1,0 +1,82 @@
+baseURL = "https://0xSudo3r-Blog.netlify.app"
+languageCode = "en-us"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "// 0xSudo3r Blog"
+
+[pagination]
+pagerSize = 3
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+ 
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@0xSudo3r"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true # the description below the title on home page
+  showPostsOnHomepage = false
+  showReadTimeOnPosts = true
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = false
+  # OLD CORRECTS, OVERWRITTEN IN THE CUSTOM.CSS FILE
+  # ---------
+  # highlightColor = '#7b16ff'
+  # baseColor = "#ffffff"
+  # baseOffsetColor = "#eaeaea"
+  # headingColor = "#1c1b1d"
+  # textColor = "#4e5157"
+  # dotColor = "#7b16ff"
+  # ---------
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap"
+  fontFamilyHeading = "Ubuntu"
+  fontFamilyParagraph = "Ubuntu"
+  fontFamilyMonospace = "Ubuntu Mono"
+  showAboutPage = false  # Toggle to control About page visibility
+  github_username = "0xSudo3r"
+  linkedin_url_name = "mohamedsayedmohamed"
+  email = "mohamedsayedmohamed88@outlook.com"
+  repo_name = "0xSudo3r-Blog"  # for GitHub stars badge
+  footer_text = ":: 0xSudo3r Blog"  # Add this line for custom footer text
+  footer_year = "2025-2026"  # Static year for footer
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xhtml = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    identifier = "blog"
+    weight = 2
+    url = "/posts/"
+  [[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 3
+    url = "/about/"
+  [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    weight = 4
+    url = "/tags/"
