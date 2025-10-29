@@ -35,13 +35,13 @@ Results of the nmap scan
 
 Let’s navigate to this website and see what’s on there.
 
-![](https://cdn-images-1.medium.com/max/640/1*vU19IiqLDvZd-w5hWeRISA.png)
+![](images/TryHackMe_Ignite_Walkthrough/fuel_cms.png)
 
 Navigating to the website
 
 So, let’s search about vulnerabilities to exploit it.
 
-![](https://cdn-images-1.medium.com/max/640/1*xWcNNOsndlpzOGmEjDf8sQ.png)
+![](images/TryHackMe_Ignite_Walkthrough/google_search.png)
 
 ![](https://cdn-images-1.medium.com/max/640/1*u53diavBbKraApsjiw5vyA.png)
 
