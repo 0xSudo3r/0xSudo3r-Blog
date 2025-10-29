@@ -71,15 +71,15 @@ nc -lnvp <Listening-Port>
 
 And then, we will search about netcat reverse shell to make the machine connect on our local machine. Like:
 
-![](https://cdn-images-1.medium.com/max/640/1*rPxz_EZM4Q4uvHsX6pqn7w.png)
+![](images/TryHackMe_Ignite_Walkthrough/ncat_RCE.png)
 
 Change the IP and Port number with your IP and Port number. Copy the command and paste it on the our session with the machine
 
-![](https://cdn-images-1.medium.com/max/640/1*HV9K01CK_zmL_cSoQeBxcw.png)
+![](images/TryHackMe_Ignite_Walkthrough/enhance_RCE.png)
 
 Now we find the connection completed the the netcat.
 
-![](https://cdn-images-1.medium.com/max/640/1*ef18WzuYi7O9_Znpn-g9SQ.png)
+![](images/TryHackMe_Ignite_Walkthrough/enhance_shell.png)
 
 And Now, Let’s Search about the User.txt Flag
 
