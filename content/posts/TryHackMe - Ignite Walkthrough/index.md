@@ -83,13 +83,13 @@ Now we find the connection completed the the netcat.
 
 And Now, Let’s Search about the User.txt Flag
 
-![](https://cdn-images-1.medium.com/max/640/1*eB8BlqZr-pvMhz77faKrqg.png)
+![](images/TryHackMe_Ignite_Walkthrough/user_flag.png)
 
 2. Root.txt
 
 And Now, Let’s escalate our privileges. After extensive searching through the website’s directories, I discovered that the application has a database, and I found the username and password for the root user.
 
-![](https://cdn-images-1.medium.com/max/640/1*LuISJw28SWoFcWaVai585w.png)
+![](images/TryHackMe_Ignite_Walkthrough/php_disclosure_db_password.png)
 
 ![](https://cdn-images-1.medium.com/max/640/1*21rIHGEGO8aM_ypw9tRvdQ.png)
 
