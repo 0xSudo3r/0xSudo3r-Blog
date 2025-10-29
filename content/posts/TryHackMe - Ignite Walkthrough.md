@@ -65,7 +65,9 @@ Now Let’s make this session more stable. We can make this session as reverse s
 
 The full command will look like the following:
 
+```bash
 nc -lnvp <Listening-Port>
+```
 
 And then, we will search about netcat reverse shell to make the machine connect on our local machine. Like:
 
