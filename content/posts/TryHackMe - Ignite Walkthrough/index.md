@@ -43,7 +43,7 @@ So, let’s search about vulnerabilities to exploit it.
 
 ![](images/TryHackMe_Ignite_Walkthrough/google_search.png)
 
-![](https://cdn-images-1.medium.com/max/640/1*u53diavBbKraApsjiw5vyA.png)
+![](images/TryHackMe_Ignite_Walkthrough/db_exploit_RCE.png)
 
 Results of the Search
 
@@ -57,7 +57,7 @@ python3 exploitFuel.py -u http://<Machine-IP>/
 
 And Booooooom! Hacking successfully completed.
 
-![](https://cdn-images-1.medium.com/max/640/1*6t0Pg0BmdWJE_xY6D3fz-g.png)
+![](images/TryHackMe_Ignite_Walkthrough/use_exploit_script.png)
 
 Hacking successfully completed!
 
