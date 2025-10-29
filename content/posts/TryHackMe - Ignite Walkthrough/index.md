@@ -17,7 +17,7 @@ date: 2024-12-03
 
 Start the target machine by clicking the green “Start Machine” button at the top of the task. To connect to the TryHackMe network, I’ll use my personal Kali virtual machine and establish a connection via OpenVPN.
 
-![](https://github.com/0xSudo3r/0xSudo3r-Blog/blob/main/content/posts/TryHackMe%E2%80%8A-%E2%80%8AIgnite%20Walkthrough/lets_start.jpg)
+![](https://github.com/0xSudo3r/0xSudo3r-Blog/blob/main/content/posts/TryHackMe%E2%80%8A-%E2%80%8AIgnite%20Walkthrough/lets_start.jpg?raw=true)
 
 Starting the target machine
 
