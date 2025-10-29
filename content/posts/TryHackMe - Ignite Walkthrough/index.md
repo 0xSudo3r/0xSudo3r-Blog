@@ -1,7 +1,7 @@
 ---
 title: TryHackMe - Ignite Walkthrough
 description: TryHackMe's Ignite room is a beginner-friendly challenge involving a vulnerable CMS and leveraging a reverse shell to gain root access. This write-up will guide you through every step, from the initial Nmap scan to achieving root privileges.
-image: images/TryHackMe - Ignite Walkthrough/Banner.jpg
+image: images/TryHackMe_Ignite_Walkthrough/Banner.jpg
 tags:
   - blog
   - CTF
@@ -17,7 +17,7 @@ date: 2024-12-03
 
 Start the target machine by clicking the green “Start Machine” button at the top of the task. To connect to the TryHackMe network, I’ll use my personal Kali virtual machine and establish a connection via OpenVPN.
 
-![](images/TryHackMe%E2%80%8A-%E2%80%8AIgnite%20Walkthrough/lets_start.jpg)
+![](/images/TryHackMe_Ignite_Walkthrough/lets_start.jpg)
 
 Starting the target machine
 
