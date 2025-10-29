@@ -1,4 +1,4 @@
-baseURL = "https://blog-0xsudo3r.netlify.app"
+baseURL = "https://0xsudo3r.github.io/0xSudo3r-Blog/"
 languageCode = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
