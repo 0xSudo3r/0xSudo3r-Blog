@@ -29,7 +29,7 @@ The full command will look like the following:
 nmap -sV <Machine-IP>
 ```
 
-![](https://cdn-images-1.medium.com/max/640/1*F1BfO03xszb0hL2FXqpEjA.png)
+![](images/TryHackMe_Ignite_Walkthrough/nmap.png)
 
 Results of the nmap scan
 
