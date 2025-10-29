@@ -11,9 +11,9 @@ date: 2024-12-03
 ---
 [TryHackMe](https://tryhackme.com/)’s Ignite room is a beginner-friendly challenge involving a vulnerable CMS and leveraging a reverse shell to gain root access. This write-up will guide you through every step, from the initial Nmap scan to achieving root privileges.
 
-### Task 1: Root it!
+### Let's Fucken Root it!
 
-1. User.txt
+#### 1. User.txt
 
 Start the target machine by clicking the green “Start Machine” button at the top of the task. To connect to the TryHackMe network, I’ll use my personal Kali virtual machine and establish a connection via OpenVPN.
 
@@ -85,7 +85,7 @@ And Now, Let’s Search about the User.txt Flag
 
 ![](images/TryHackMe_Ignite_Walkthrough/user_flag.png)
 
-2. Root.txt
+#### 2. Root.txt
 
 And Now, Let’s escalate our privileges. After extensive searching through the website’s directories, I discovered that the application has a database, and I found the username and password for the root user.
 
