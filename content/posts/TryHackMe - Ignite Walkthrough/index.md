@@ -91,11 +91,11 @@ And Now, Let’s escalate our privileges. After extensive searching through the 
 
 ![](images/TryHackMe_Ignite_Walkthrough/php_disclosure_db_password.png)
 
-![](https://cdn-images-1.medium.com/max/640/1*21rIHGEGO8aM_ypw9tRvdQ.png)
+![](images/TryHackMe_Ignite_Walkthrough/root_password.png)
 
 So, I switched to the root user, navigated to the root directory, and found the root flag.
 
-![](https://cdn-images-1.medium.com/max/640/1*tobDTU4RPrt_rVaNEEPzbw.png)
+![](images/TryHackMe_Ignite_Walkthrough/root_flag.png)
 
 We’ve successfully completed the room! Starting with an **nmap** scan, we worked our way to root access by exploiting a vulnerable CMS, obtaining a reverse shell, and performing shell upgrades. I hope this writeup proves helpful in guiding you through the room!
 
