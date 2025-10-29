@@ -7,8 +7,10 @@ tags:
   - CTF
   - TryHackMe
   - Web_Pentesting
-date:
+date: 2024-12-03
 ---
+[TryHackMe](https://tryhackme.com/)’s Ignite room is a beginner-friendly challenge involving a vulnerable CMS and leveraging a reverse shell to gain root access. This write-up will guide you through every step, from the initial Nmap scan to achieving root privileges.
+
 ### Task 1: Root it!
 
 1. User.txt
@@ -23,7 +25,9 @@ Now that we have everything set up, we can start breaking into the machine. Let�
 
 The full command will look like the following:
 
+```bash
 nmap -sV <Machine-IP>
+```
 
 ![](https://cdn-images-1.medium.com/max/640/1*F1BfO03xszb0hL2FXqpEjA.png)
 
@@ -47,7 +51,9 @@ Copy the code of exploitation and paste it on <_filename>.py_
 
 And run the code like:
 
+```bash
 python3 exploitFuel.py -u http://<Machine-IP>/
+```
 
 And Booooooom! Hacking successfully completed.
 
